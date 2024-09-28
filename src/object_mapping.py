@@ -6,9 +6,7 @@ video_path = 'video_2.mp4'
 model_path = 'model.pt'
 
 
-
 import math
-
 import cv2
 
 from ultralytics import YOLO
@@ -21,7 +19,9 @@ w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FR
 
 out = cv2.VideoWriter("results/object_mapping.mp4", cv2.VideoWriter_fourcc(*"MJPG"), fps, (w, h))
 
-center_point = (0, h)
+w = int(w/2)  #divide w by two so the distance is calculated exactly from the bottom center of video frame
+
+center_point = (w, h)
 pixel_per_meter = 10
 
 txt_color, txt_background, bbox_clr = ((0, 0, 0), (255, 255, 255), (255, 0, 255))
