@@ -49,7 +49,7 @@ def object_detect(video_path, model_path):
 
 
 def main():
-    video_path = 'video_2.mp4'
+    video_path = 'video_1.mp4'
     model_path = 'model.pt'
 
     object_detect(video_path, model_path)
