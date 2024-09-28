@@ -1,5 +1,5 @@
 
-#this function will blur the detected object in a video
+#this program will blur the detected object in a video
 
 video_path = 'video_1.mp4'
 model_path = 'model.pt'
