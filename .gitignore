@@ -1,2 +1,4 @@
 venv
 results
+model_training_src/runs
+model_training_src/data/labels/train.cache

@@ -1,0 +1,6 @@
+names:
+  0: battery_with_label
+  1: battery_no_label
+path: C:\Users\pdriscol\OneDrive - Milwaukee Tool\Peter Driscoll\Engineering Learning\SOFTWARE\GITHUB\applied-visionAI\model_training_src\data
+train: C:\Users\pdriscol\OneDrive - Milwaukee Tool\Peter Driscoll\Engineering Learning\SOFTWARE\GITHUB\applied-visionAI\model_training_src\data\images\train
+val: C:\Users\pdriscol\OneDrive - Milwaukee Tool\Peter Driscoll\Engineering Learning\SOFTWARE\GITHUB\applied-visionAI\model_training_src\data\images\train
